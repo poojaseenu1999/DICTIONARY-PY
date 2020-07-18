@@ -14,10 +14,10 @@ def translate(w):
         elif yn == 'n':
             return "The word doesnt exist. please check it."
         else:
-             return "sorry! we can't understand."
+             return "sorry! we can't understand your entry."
 
     else:
-        return "this word doesnt exist!"
+        return "This word doesnt exist!please try again!"
 
 
 word = input("enter the word: ")
